@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .holo-effect {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 0, 255, 0.1),
+      rgba(0, 255, 255, 0.1)
+    );
+    border: 2px solid #0ff4;
+    color: white;
+    padding: 20px;
+    transition: transform 0.1s ease, background 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 30px #0ff5;
+    background-blend-mode: screen;
+    backdrop-filter: blur(10px);
+    transform-style: preserve-3d;
+    background-size: 300% 300%;
+  }
+}
