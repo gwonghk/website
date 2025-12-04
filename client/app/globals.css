@@ -50,3 +50,16 @@ body {
     background-size: 300% 300%;
   }
 }
+
+.success {
+  background-color: #22c55e;
+  color: white;
+}
+.warn {
+  background-color: #eab308;
+  color: white;
+}
+.fail {
+  background-color: #6b7280;
+  color: white;
+}
