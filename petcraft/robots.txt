@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://petcraft.example/sitemap.xml
+
+# Disallow certain paths (optional)
+Disallow: /api/
+Disallow: /js/config.js
